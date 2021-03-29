@@ -1,4 +1,4 @@
-import { AppState, initAppState } from '@core/reducers/auth.state';
+import { AppState, initAppState } from '@core/reducers/app.state';
 import { AuthActionTypes, AuthActions } from '@core/actions/auth.actions';
 import { AuthModel } from '@shared/models/auth.model';
 
