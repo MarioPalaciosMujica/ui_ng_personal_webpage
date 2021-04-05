@@ -1,0 +1,10 @@
+@import 'assets/styles/navbar.scss';
+
+body {
+    background-color: $black;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.bg-dark {
+    background-color: $black !important;
+}
