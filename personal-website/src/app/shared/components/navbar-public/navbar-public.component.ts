@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import en from '@angular/common/locales/en';
 
 @Component({
   selector: 'app-navbar-public',
@@ -10,6 +12,7 @@ export class NavbarPublicComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+      registerLocaleData(en);
   }
 
 }

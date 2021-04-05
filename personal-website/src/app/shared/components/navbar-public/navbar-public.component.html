@@ -15,28 +15,39 @@
     <ul class="navbar-nav mx-auto">
       <li class="nav-item active">
         <a class="nav-link" href="#">
-          Home <span class="sr-only">(curent)</span></a
+          {{ "PUBLIC_NAVBAR.home" | translate }}
+          <span class="sr-only">(curent)</span></a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
+        <a class="nav-link" href="#">{{
+          "PUBLIC_NAVBAR.services" | translate
+        }}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
+        <a class="nav-link" href="#">{{
+          "PUBLIC_NAVBAR.portfolio" | translate
+        }}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Skills</a>
+        <a class="nav-link" href="#">{{
+          "PUBLIC_NAVBAR.skills" | translate
+        }}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Me</a>
+        <a class="nav-link" href="#">{{
+          "PUBLIC_NAVBAR.about_me" | translate
+        }}</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#">{{
+          "PUBLIC_NAVBAR.contact" | translate
+        }}</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link">Login</a>
+        <a class="nav-link" href="#">{{ "PUBLIC_NAVBAR.login" | translate }}</a>
       </li>
     </ul>
   </div>

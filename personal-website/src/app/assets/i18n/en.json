@@ -1,0 +1,11 @@
+{
+  "PUBLIC_NAVBAR": {
+    "home": "home",
+    "services": "services",
+    "portfolio": "portfolio",
+    "skills": "skills",
+    "about_me": "about me",
+    "contact": "contact",
+    "login": "login"
+  }
+}
