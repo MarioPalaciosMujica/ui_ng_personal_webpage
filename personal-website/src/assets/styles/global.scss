@@ -1,8 +1,19 @@
 @import 'theme.scss';
 
+html, body {
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+}
+
 body {
     background-color: $black;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: $white;
+}
+
+.fill {
+    height: 100vh;
 }
 
 .bg-dark {
